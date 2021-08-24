@@ -22,7 +22,7 @@ object ScalaSolution27 {
   }
 
   def main(args: Array[String]): Unit = {
-    val nums: Array[Int] = Array(0, 1, 3, 2, 1, 2, 5, 6, 1, 4);
+    val nums: Array[Int] = Array(0, 1, 3, 2, 1, 2, 5, 6, 1, 4)
     val `val`: Int = 1
     val len = removeElement(nums, `val`);
     for (i <- 0 to len - 1) {
